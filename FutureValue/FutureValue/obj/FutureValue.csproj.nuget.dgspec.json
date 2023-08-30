@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jpscott\\Desktop\\FutureValue\\FutureValue\\FutureValue\\FutureValue.csproj": {}
+    "C:\\Users\\jpscott\\Desktop\\FutureValueFromScratch\\FutureValue\\FutureValue\\FutureValue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jpscott\\Desktop\\FutureValue\\FutureValue\\FutureValue\\FutureValue.csproj": {
+    "C:\\Users\\jpscott\\Desktop\\FutureValueFromScratch\\FutureValue\\FutureValue\\FutureValue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jpscott\\Desktop\\FutureValue\\FutureValue\\FutureValue\\FutureValue.csproj",
+        "projectUniqueName": "C:\\Users\\jpscott\\Desktop\\FutureValueFromScratch\\FutureValue\\FutureValue\\FutureValue.csproj",
         "projectName": "FutureValue",
-        "projectPath": "C:\\Users\\jpscott\\Desktop\\FutureValue\\FutureValue\\FutureValue\\FutureValue.csproj",
+        "projectPath": "C:\\Users\\jpscott\\Desktop\\FutureValueFromScratch\\FutureValue\\FutureValue\\FutureValue.csproj",
         "packagesPath": "C:\\Users\\jpscott\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jpscott\\Desktop\\FutureValue\\FutureValue\\FutureValue\\obj\\",
+        "outputPath": "C:\\Users\\jpscott\\Desktop\\FutureValueFromScratch\\FutureValue\\FutureValue\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jpscott\\AppData\\Roaming\\NuGet\\NuGet.Config",

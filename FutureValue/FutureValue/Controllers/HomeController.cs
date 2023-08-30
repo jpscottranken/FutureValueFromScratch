@@ -1,35 +1,30 @@
-﻿using FutureValue.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using FutureValue.Models;
 
 namespace FutureValue.Controllers
 {
     public class HomeController : Controller
     {
-        //  Display the form (View)
         [HttpGet]
         public IActionResult Index()
         {
-            //  Start with "clean slate"
-            ViewBag.futureValue = 0;
+            ViewBag.FutureValue = "";
             return View();
         }
 
-        //  Submit the form (View)
         [HttpPost]
         public IActionResult Index(FutureValueModel fv)
         {
-            //  Validate data
             if (ModelState.IsValid)
             {
-                ViewBag.FutureValue = fv.CalculateFutureValue();
+                ViewBag.FutureValue = fv.CalculateFutureValue()?.ToString("c") ?? string.Empty;
             }
             else
             {
-                ViewBag.FutureValue = 0;
+                ViewBag.FutureValue = "";
             }
 
-            //  Add fv to the () below
-            return View(fv);
+            return View();
         }
     }
 }
